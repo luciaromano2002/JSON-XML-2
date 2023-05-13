@@ -1,0 +1,103 @@
+ListaCompra = {
+        
+    {
+        "supermercado1_DatosInteres": {
+            "nombre": "Mercadona",
+            "direccion": "C/ Valencia, 3", 
+            "geolocalizacion": "\"N39°28'10,9\" O°22'34,8"
+            }, 
+            
+            "productosInteres": [
+
+            {
+                "fruteria": [{
+                    "producto": "manzana",
+                    "unidades": 10,
+                    "unidadesMedida": "kg",
+                    "precio_Euros": 3.00,
+                    "oferta": true,
+                    "periodoInicioOferta": "20-10-2022", 
+                    "periodoFinalizacionOferta": "21-11-2022",  
+                    "precioConOferta_Euros": 2.15,
+                    "adquisicionProducto": false
+                }, 
+                {
+                    "producto": "pera",
+                    "unidades": 7,
+                    "unidadesMedida": "kg", 
+                    "precio_Euros": 3.50,
+                    "oferta": false, 
+                    "periodoInicioOferta": null,
+                    "periodoFinalizacionOferta": null,
+                    "precioConOfera_Euros": null,
+                    "adquisicionProducto": true
+                }]
+            },
+        
+            {
+                "bolleria": {
+                    "producto": "berlinas",
+                    "unidades": 6,
+                    "unidadesMedida": "unidad",
+                    "precio_Euros": 5.00,
+                    "oferta": false,
+                    "periodoInicioOferta": null, 
+                    "periodoFinalizacionOferta": null,  
+                    "precioConOferta_Euros": null,
+                    "adquisicionProducto": true
+                }
+            }
+
+        ]
+    },
+
+    {
+        "supermercado2_DatosInteres": {
+            "nombre": "Carrefour", 
+            "direccion": "C/ Valencia, 15", 
+            "geolocalizacion": "\"N39°28'20\" O°30'40"
+            },
+
+            "productosInteres": [
+            
+            {
+                "fruteria": [{
+                    "producto": "manzana",
+                    "unidades": 8,
+                    "unidadesMedida": "kg",
+                    "precio_Euros": 2.50,
+                    "oferta": false,
+                    "periodoInicioOferta": null, 
+                    "periodoFinalizacionOferta": null,  
+                    "precioConOferta_Euros": null,
+                    "adquisicionProducto": false
+                },
+                {
+                    "producto": "pera",
+                    "unidades": 9,
+                    "unidadesMedida": "kg", 
+                    "precio_Euros": 4.00,
+                    "oferta": true, 
+                    "periodoInicioOferta": "20-10-2022",
+                    "periodoFinalizacionOferta": "20-11-2022",
+                    "precioConOferta_Euros": 3.25,
+                    "adquisicionProducto": true
+                }]
+            },
+
+            {
+                "bolleria": {
+                    "producto": "berlinas",
+                    "unidades": 4,
+                    "unidadesMedida": "unidad",
+                    "precio_Euros": 4.00,
+                    "oferta": false,
+                    "periodoInicioOferta": null, 
+                    "periodoFinalizaciónOferta": null,  
+                    "precioConOferta_Euros": null,
+                    "adquisicionProducto": true
+                }
+            }
+        ]
+    }
+}
